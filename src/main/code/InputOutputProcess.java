@@ -44,7 +44,6 @@ public class InputOutputProcess {
                    String pageContent;
                    while ((pageContent = buffRead.readLine()) != null) {
                            buffWrite.write(pageContent + "\n");
-                           //buffWrite.write("\n");
                    }
                    buffWrite.flush();
                } else {

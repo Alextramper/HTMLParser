@@ -16,7 +16,7 @@ public class ParsingAndSelection {
     /**
      * @param spliters массив из символов-разделителей
      */
-    String[] spliters = {"\\s", ",", ".", "!", "\\?", "\"", ";", ":", "\\[", "]", "\\(", "\\)", "\\t", "\\r", "\\n"};
+    String[] spliters = {"\\s", ",", ".", "!", "?", "\"", ";", ":", "[", "]", "(", ")", "\\t", "\\r", "\\n"};
     Map<String, Integer> uniqueWords = new LinkedHashMap<>();
 
     /**

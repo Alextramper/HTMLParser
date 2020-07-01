@@ -30,7 +30,7 @@ public class CustomExecution {
     static void setFilePath() {
         String fileName;
         System.out.println("Придумайте имя файлу, содержащему HTML-страницу: ");
-        fileName = new Scanner(System.in).nextLine() + ".txt";
+        fileName = new Scanner(System.in).nextLine() + ".html";
         System.out.println("Введите путь, куда нужно загрузить файл: ");
         filePath = new Scanner(System.in).nextLine();
         if (filePath.endsWith("\\")) {
