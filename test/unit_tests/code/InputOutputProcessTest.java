@@ -6,7 +6,7 @@ import org.junit.Assert;
 import java.io.*;
 
 public class InputOutputProcessTest {
-    private static final String url = "https://www.simbirsoft.com/";
+    private static final String url = "https://www.workaway.info/";
     private static final String filePath = "test/resources/First Test.txt";
     InputOutputProcess inputOutputProcess = new InputOutputProcess();
 
