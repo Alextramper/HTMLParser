@@ -7,7 +7,7 @@ import code.Execution;
  */
 public class ExampleExecution {
     private static String pageUrl = "https://www.workaway.info/";
-    private static String filePath = "C:/Users/exampleFile.html";
+    private static String filePath = "C:/Users/exampleFile.txt";
 
     public static void main(String[] args) {
         Execution execution = new Execution();

@@ -35,7 +35,6 @@ public class InputOutputProcess {
             connection.setConnectTimeout(CONNECT_TIME);
             connection.setReadTimeout(READ_TIME);
             connection.connect();
-
            try {
                if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
                    buffRead = new BufferedReader(new InputStreamReader(connection.
